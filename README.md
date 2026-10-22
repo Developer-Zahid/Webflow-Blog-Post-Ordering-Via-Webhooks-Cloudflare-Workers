@@ -1,4 +1,4 @@
-# webflow-sort-date
+# Webflow Blog Post Ordering Via Webhooks & Cloudflare Workers
 
 Cloudflare Worker that keeps the Blog Posts **Sort Date** field equal to the
 later of **Published Date** and **Updated Date** (exact timestamp, UTC).
