@@ -1,0 +1,6 @@
+# Copy to .dev.vars for local `npm run dev`. Never commit .dev.vars.
+WEBFLOW_API_TOKEN=paste-site-token-with-cms-read-write
+ADMIN_TOKEN=any-long-random-string
+WEBFLOW_WEBHOOK_SECRET_CREATED=paste-webhook-token-with-cms-item-created
+WEBFLOW_WEBHOOK_SECRET_CHANGED=paste-webhook-token-with-cms-item-changed
+WEBFLOW_WEBHOOK_SECRET_PUBLISHED=paste-webhook-token-with-cms-item-published

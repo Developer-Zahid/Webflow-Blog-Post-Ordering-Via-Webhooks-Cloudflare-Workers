@@ -1,0 +1,15 @@
+name = "webflow-sort-date"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# Non-secret settings. Secrets (API token, webhook secret, admin token)
+# are set with `npx wrangler secret put` and never live in this file.
+[vars]
+BLOG_COLLECTION_ID = "690aa883515819f871134491"
+PUBLISHED_FIELD = "published-date"
+UPDATED_FIELD = "updated-date"
+SORT_FIELD = "sort-date"
+
+# Keeps request logs in the Cloudflare dashboard (Workers > Logs).
+[observability]
+enabled = true
